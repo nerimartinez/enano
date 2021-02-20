@@ -1,1 +1,7 @@
-casdfa
+
+<script>
+  fetch('https://github.com/nerimartinez/enano/blob/master/a.txt', {mode: 'no-cors'})
+  .then(response => response.text())
+  .then(data=> console.log(data))
+  .catch(error => console.error(error));
+</script>
